@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+description: 제목 복원 판정기 비교 (rule-based · llm · jev)
+
+prompts:
+  - "{{path}}"
+
+providers:
+  - id: file://heading_provider.py
+    label: rule-based
+    config:
+      judge: rule-based
+  - id: file://heading_provider.py
+    label: llm
+    config:
+      judge: llm
+  - id: file://heading_provider.py
+    label: jev
+    config:
+      judge: jev
+
+defaultTest:
+  assert:
+    - type: python
+      value: file://scoring.py
+
+tests: file://tests/test_cases.yaml
+
+evaluateOptions:
+  maxConcurrency: 1
