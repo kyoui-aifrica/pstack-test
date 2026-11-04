@@ -1,0 +1,115 @@
+- description: "2015년 제주첨단과학기술단지 산업시설용지 재공급 공고문"
+  vars:
+    path: "samples/2015년 제주첨단과학기술단지 산업시설용지 재공급 공고문.hwp"
+    headings:
+      - {level: 1, text: "제주첨단과학기술단지 산업시설용지 재공급(2차) 공고문"}
+      - {level: 2, text: "□ 대상 토지 개요"}
+      - {level: 2, text: "□ 입주대상 및 자격"}
+      - {level: 2, text: "□ 분양신청 및 선정 방법"}
+      - {level: 2, text: "□ 공급 일정"}
+      - {level: 2, text: "□ 유의사항"}
+
+- description: "2016년 제주첨단과학기술단지 산업시설용지 분양 공고문"
+  vars:
+    path: "samples/2016년 제주첨단과학기술단지 산업시설용지 분양 공고문.hwp"
+    headings:
+      - {level: 1, text: "제주첨단과학기술단지 산업시설용지 분양 공고"}
+      - {level: 2, text: "1. 공급 대상 용지 개요"}
+      - {level: 2, text: "2. 입주대상 및 자격"}
+      - {level: 2, text: "3. 분양신청 및 선정 방법"}
+      - {level: 2, text: "5. 분양가격 및 대금납부방법"}
+      - {level: 2, text: "6. 정산"}
+      - {level: 2, text: "6. 토지사용 승낙 및 소유권 이전"}
+      - {level: 2, text: "7. 처분제한 및 준수사항"}
+      - {level: 2, text: "8. 공급 일정 및 관련 유의사항"}
+      - {level: 2, text: "9. 공사 및 건축관련 유의사항"}
+      - {level: 2, text: "10. 기타사항"}
+
+- description: "2017년 제주첨단과학기술단지 산업시설용지 분양 공고문"
+  vars:
+    path: "samples/2017년 제주첨단과학기술단지 산업시설용지 분양 공고문.hwp"
+    headings:
+      - {level: 1, text: "제주첨단과학기술단지 산업시설용지 분양 공고"}
+      - {level: 2, text: "1. 공급 대상 용지 개요"}
+      - {level: 2, text: "2. 입주대상 및 자격"}
+      - {level: 2, text: "3. 분양신청 및 선정 방법"}
+      - {level: 2, text: "5. 분양가격 및 대금납부방법"}
+      - {level: 2, text: "6. 정산"}
+      - {level: 2, text: "6. 토지사용 승낙 및 소유권 이전"}
+      - {level: 2, text: "7. 처분제한 및 준수사항"}
+      - {level: 2, text: "8. 공급 일정 및 관련 유의사항"}
+      - {level: 2, text: "9. 공사 및 건축관련 유의사항"}
+      - {level: 2, text: "10. 기타사항"}
+
+- description: "2020년 제주영어교육도시 도시개발사업 조성용지 공급공고"
+  vars:
+    path: "samples/2020년 제주영어교육도시 도시개발사업 조성용지 공급공고.hwp"
+    headings:
+      - {level: 1, text: "제주영어교육도시 도시개발사업 조성용지 공급 공고"}
+      - {level: 2, text: "1. 공급대상 및 공급방법"}
+      - {level: 2, text: "2. 신청자격"}
+      - {level: 2, text: "3. 공급일정 및 장소"}
+      - {level: 2, text: "4. 입찰서 제출"}
+      - {level: 2, text: "5. 입찰보증금 납부, 반환 및 귀속"}
+      - {level: 2, text: "6. 낙찰자 결정방법"}
+      - {level: 2, text: "7. 계약체결 시 구비서류"}
+      - {level: 2, text: "8. 대금납부"}
+      - {level: 2, text: "9. 용지사용 및 소유권이전"}
+      - {level: 2, text: "10. 명의변경에 관한 사항"}
+      - {level: 2, text: "11. 주요세금 및 신고사항"}
+      - {level: 2, text: "12. 연기 또는 취소"}
+      - {level: 2, text: "13. 기타 유의사항"}
+
+- description: "2025년 8월 제주첨단과학기술단지 스마트빌딩 입주 안내서"
+  vars:
+    path: "samples/2025년 8월 제주첨단과학기술단지 스마트빌딩 입주안내서.hwp"
+    headings:
+      - {level: 1, text: "-  제주첨단과학기술단지 스마트빌딩 -\n입  주  안  내  서"}
+      - {level: 2, text: "Ⅰ. 입주안내 개요"}
+      - {level: 2, text: "Ⅱ. 임대시설 개요"}
+      - {level: 2, text: "Ⅲ. 임대대상 및 가격"}
+      - {level: 2, text: "Ⅳ. 입주대상 업종 및 자격"}
+      - {level: 2, text: "Ⅴ. 입주자 선정방법"}
+      - {level: 2, text: "Ⅵ. 임 대 료"}
+      - {level: 2, text: "Ⅶ. 관 리 비"}
+      - {level: 2, text: "Ⅷ. 공급 일정"}
+      - {level: 2, text: "Ⅸ. 입주신청 및 계약체결 유의사항"}
+      - {level: 2, text: "Ⅹ. 첨 부(제출 서류 양식)"}
+      - {level: 3, text: "[서식 제1호]"}
+      - {level: 3, text: "[서식 제2호]"}
+      - {level: 3, text: "[서식 제3호]"}
+
+- description: "2026년 제주영어교육도시 도시개발사업 잔지 공급 공고"
+  vars:
+    path: "samples/2026년 제주영어교육도시 도시개발사업 잔지 공급 공고.hwp"
+    headings:
+      - {level: 1, text: "제주영어교육도시 도시개발사업 잔지 공급 공고"}
+      - {level: 2, text: "1. 공급대상 및 공급방법"}
+      - {level: 2, text: "2. 입찰참가자격 : 실수요자로서 아래에 해당하는 자"}
+      - {level: 2, text: "3. 공급일정 및 장소"}
+      - {level: 2, text: "4. 입찰서 제출"}
+      - {level: 2, text: "5. 입찰보증금 납부, 반환 및 귀속"}
+      - {level: 2, text: "6. 낙찰자 결정방법"}
+      - {level: 2, text: "7. 계약체결 시 구비서류"}
+      - {level: 2, text: "8. 대금납부"}
+      - {level: 2, text: "9. 용지사용 및 소유권이전"}
+      - {level: 2, text: "10. 주요세금 및 신고사항"}
+      - {level: 2, text: "11. 연기 또는 취소"}
+      - {level: 2, text: "12. 청렴계약 이행준수"}
+      - {level: 2, text: "13. 기타 유의사항"}
+
+- description: "2026년 제주첨단과학기술단지 2단지 분양공고문"
+  vars:
+    path: "samples/2026년 제주첨단과학기술단지 2단지 분양공고문.pdf"
+    headings:
+      - {level: 1, text: "제주첨단과학기술단지 2단지 산업시설용지 1차 분양공고문"}
+      - {level: 2, text: "① 공급 대상 토지 및 공급금액"}
+      - {level: 2, text: "② 입주대상 업종 및 신청 자격"}
+      - {level: 2, text: "③ 입주대상자 선정 우선순위 (내림차 순)"}
+      - {level: 2, text: "④ 입주 신청 유의 사항 및 안내"}
+      - {level: 2, text: "⑤ 대금납부"}
+      - {level: 2, text: "⑥ 토지 사용 가능 시기, 면적 및 가격정산, 소유권 이전"}
+      - {level: 2, text: "⑦ 처분제한 및 준수사항"}
+      - {level: 2, text: "⑧ 주요 세금 및 신고사항"}
+      - {level: 2, text: "⑨ 기타 유의 사항"}
+      - {level: 2, text: "□ 접수처 : 제주국제자유도시개발센터 첨단운영처"}
