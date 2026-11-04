@@ -27,7 +27,7 @@ Python 3.12, [uv](https://docs.astral.sh/uv/), Node.js 22가 필요합니다. �
 
    PostgreSQL은 표준 `PG*` 변수(`PGHOST`, `PGPORT`, `PGUSER`, `PGPASSWORD`, `PGDATABASE`)로 접속합니다. OpenSearch는 `OPENSEARCH_URL`과 `OPENSEARCH_PORT`를 이어 붙인 주소로 접속합니다. `OPENSEARCH_USER`가 있으면 기본 인증을 쓰고, `OPENSEARCH_CERT_FILE`이 있으면 그 CA 인증서로 TLS를 검증합니다.
 
-   임베딩 서버는 OpenAI 호환 `/v1/embeddings`를 제공해야 합니다. `EMBEDDING_BASE_URL`과 `EMBEDDING_PORT`를 이어 붙인 주소 뒤에 `/v1`을 붙여 접속합니다. `EMBEDDING_BASE_URL`에 스킴이 없으면 `http://`로 봅니다. `EMBEDDING_MODEL`은 `config.yaml`에 있는 모델 이름 중 하나여야 합니다.
+   임베딩 서버는 OpenAI 호환 `/v1/embeddings`를 제공해야 합니다. `EMBEDDING_BASE_URL`과 `EMBEDDING_PORT`를 이어 붙인 주소 뒤에 `/v1`을 붙여 접속합니다. `EMBEDDING_MODEL`은 `config.yaml`에 있는 모델 이름 중 하나여야 합니다.
 
    `llm` 판정기는 `LLM_BASE_URL`(`/v1` 포함), `LLM_API_KEY`, `LLM_MODEL`을 씁니다. `jev` 판정기는 `TYPESAFE_BASE_URL`과 `TYPESAFE_API_KEY`를 씁니다. 모델은 기본 `typesafe/jev-router`이고 `TYPESAFE_MODEL`로 바꿀 수 있습니다.
 

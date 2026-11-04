@@ -89,13 +89,6 @@ def test_client_url_without_port_and_key_still_builds(monkeypatch):
     assert str(embedding_client().base_url) == "https://embed.example.com/v1/"
 
 
-def test_base_url_without_scheme_defaults_to_http(monkeypatch):
-    monkeypatch.setenv("EMBEDDING_BASE_URL", "10.0.0.5")
-    monkeypatch.setenv("EMBEDDING_PORT", "8080")
-
-    assert str(embedding_client().base_url) == "http://10.0.0.5:8080/v1/"
-
-
 def test_missing_base_url_raises(monkeypatch):
     monkeypatch.delenv("EMBEDDING_BASE_URL", raising=False)
 
