@@ -1,0 +1,11 @@
+{
+  "name": "document-ingestion-pipeline",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "kordoc": "4.24.11"
+  },
+  "devDependencies": {
+    "promptfoo": "0.124.1"
+  }
+}
