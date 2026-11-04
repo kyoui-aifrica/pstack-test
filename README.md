@@ -9,7 +9,7 @@ flowchart LR
 
 ## 실행 준비
 
-Python 3.12, [uv](https://docs.astral.sh/uv/), Node.js 22, Docker가 필요합니다.
+Python 3.12, [uv](https://docs.astral.sh/uv/), Node.js 22가 필요합니다. 저장소는 pgvector와 pg_search(0.26.3에서 확인)가 설치된 PostgreSQL, 또는 analysis-nori 플러그인이 설치된 OpenSearch를 씁니다.
 
 1. Python 의존성을 설치합니다.
 
@@ -23,23 +23,9 @@ Python 3.12, [uv](https://docs.astral.sh/uv/), Node.js 22, Docker가 필요합�
    npm install
    ```
 
-3. 로컬 저장소를 띄웁니다. `compose.yaml`은 PostgreSQL(paradedb, pgvector와 pg_search 포함)과 OpenSearch(nori 플러그인 설치)를 올립니다.
+3. `.env.example`을 `.env`로 복사하고 값을 채웁니다.
 
-   ```sh
-   docker compose up -d
-   ```
-
-4. `.env.example`을 `.env`로 복사하고 값을 채웁니다. 로컬 compose를 쓰면 저장소 값은 아래와 같습니다.
-
-   ```sh
-   PGHOST=localhost
-   PGPORT=5432
-   PGUSER=postgres
-   PGPASSWORD=postgres
-   PGDATABASE=ingestion
-   OPENSEARCH_URL=http://localhost
-   OPENSEARCH_PORT=9200
-   ```
+   PostgreSQL은 표준 `PG*` 변수(`PGHOST`, `PGPORT`, `PGUSER`, `PGPASSWORD`, `PGDATABASE`)로 접속합니다. OpenSearch는 `OPENSEARCH_URL`과 `OPENSEARCH_PORT`를 이어 붙인 주소로 접속합니다. `OPENSEARCH_USER`가 있으면 기본 인증을 쓰고, `OPENSEARCH_CERT_FILE`이 있으면 그 CA 인증서로 TLS를 검증합니다.
 
    임베딩 서버는 OpenAI 호환 `/v1/embeddings`를 제공해야 합니다. `EMBEDDING_BASE_URL`과 `EMBEDDING_PORT`를 이어 붙인 주소 뒤에 `/v1`을 붙여 접속합니다. `EMBEDDING_BASE_URL`에 스킴이 없으면 `http://`로 봅니다. `EMBEDDING_MODEL`은 `config.yaml`에 있는 모델 이름 중 하나여야 합니다.
 
