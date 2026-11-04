@@ -1,0 +1,14 @@
+models:
+  nlpai-lab/KURE-v1:
+    index_name: kure-v1
+    dimension: 1024
+  BGE-m3-ko:
+    index_name: bge-m3-ko
+    dimension: 1024
+  BAAI/bge-m3:
+    index_name: bge-m3
+    dimension: 1024
+  google/embeddinggemma-2:
+    index_name: embeddinggemma-2
+    dimension: 768
+    document_prefix: "title: {title} | text: "
