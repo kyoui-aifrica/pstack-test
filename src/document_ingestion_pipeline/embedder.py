@@ -16,6 +16,8 @@ def embedding_client() -> OpenAI:
     base_url = os.environ.get("EMBEDDING_BASE_URL", "").rstrip("/")
     if not base_url:
         raise ConfigError("EMBEDDING_BASE_URL이 설정되지 않았습니다")
+    if "://" not in base_url:
+        base_url = f"http://{base_url}"
     if port := os.environ.get("EMBEDDING_PORT"):
         base_url = f"{base_url}:{port}"
     api_key = os.environ.get("EMBEDDING_API_KEY") or "unused"
